@@ -1,0 +1,67 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXGroup section */
+		9D17E6541CB6AF7E007DCD1D = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		9D17E6551CB6AF7E007DCD1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 9D17E6581CB6AF7E007DCD1D /* Build configuration list for PBXProject "react-native-facebook-app-invite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D17E6541CB6AF7E007DCD1D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		9D17E6591CB6AF7E007DCD1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		9D17E65A1CB6AF7E007DCD1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D17E6581CB6AF7E007DCD1D /* Build configuration list for PBXProject "react-native-facebook-app-invite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D17E6591CB6AF7E007DCD1D /* Debug */,
+				9D17E65A1CB6AF7E007DCD1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D17E6551CB6AF7E007DCD1D /* Project object */;
+}
