@@ -10,8 +10,17 @@ import React, {
   Text,
   View
 } from 'react-native';
+import FacebookAppInvite from 'react-native-facebook-app-invite';
 
 class ReactNativeFacebookAppInviteExample extends Component {
+  facebookAppInvite = () => {
+      FacebookAppInvite.openAppInvite(
+          'http://www.thiery.io/appLink',
+          'http://www.thiery.io/appLinkImage.png',
+          () => { console.log('This is not gonna run yet.'); }
+      );
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -20,6 +29,9 @@ class ReactNativeFacebookAppInviteExample extends Component {
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js
+        </Text>
+        <Text onPress={this.facebookAppInvite}>
+          Press here for App inviting people
         </Text>
         <Text style={styles.instructions}>
           Shake or press menu button for dev menu

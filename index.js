@@ -1,4 +1,6 @@
-import { FacebookAppInvite } from 'NativeModules';
+import React, {
+    NativeModules
+} from 'react-native';
 
 /**
  * For more information about what the appLink is :
@@ -9,7 +11,8 @@ export const openAppInvite = (
     appLinkImage = '',
     callback = () => {}
 ) => {
-    return FacebookAppInvite.openAppInvite(
+    console.log(NativeModules);
+    return NativeModules.FacebookAppInvite.openAppInvite(
         appLink,
         appLinkImage,
         callback
