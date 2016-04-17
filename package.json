@@ -8,15 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:adrienthiery/react-native-facebook-app-invite.git"
+    "url": "https://github.com:adrienthiery/react-native-facebook-app-invite.git"
   },
   "keywords": [
     "React-native",
+    "React",
+    "native",
+    "App invite",
     "Facebook",
     "App",
     "Invite",
     "ios",
-    "and",
     "android"
   ],
   "author": "Adrien Thiery",

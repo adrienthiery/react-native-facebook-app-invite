@@ -6,11 +6,26 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		9D700CB51CC4279000E8D4DB /* FacebookAppInvite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookAppInvite.h; sourceTree = "<group>"; };
+		9D700CB61CC4279000E8D4DB /* FacebookAppInvite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookAppInvite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		9D17E6541CB6AF7E007DCD1D = {
 			isa = PBXGroup;
 			children = (
+				9D700CB41CC4279000E8D4DB /* FacebookAppInvite */,
 			);
+			sourceTree = "<group>";
+		};
+		9D700CB41CC4279000E8D4DB /* FacebookAppInvite */ = {
+			isa = PBXGroup;
+			children = (
+				9D700CB51CC4279000E8D4DB /* FacebookAppInvite.h */,
+				9D700CB61CC4279000E8D4DB /* FacebookAppInvite.m */,
+			);
+			path = FacebookAppInvite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
