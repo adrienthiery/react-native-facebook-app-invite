@@ -1,0 +1,28 @@
+{
+  "name": "react-native-facebook-app-invite",
+  "version": "1.0.0",
+  "description": "A react-native component for using Facebook App invites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adrienthiery/react-native-facebook-app-invite.git"
+  },
+  "keywords": [
+    "React-native",
+    "Facebook",
+    "App",
+    "Invite",
+    "ios",
+    "and",
+    "android"
+  ],
+  "author": "Adrien Thiery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrienthiery/react-native-facebook-app-invite/issues"
+  },
+  "homepage": "https://github.com/adrienthiery/react-native-facebook-app-invite#readme"
+}
