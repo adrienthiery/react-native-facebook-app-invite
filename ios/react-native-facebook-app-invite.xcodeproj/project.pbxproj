@@ -6,77 +6,308 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9D700D1A1CC4465800E8D4DB /* FacebookAppInvite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D700D191CC4465800E8D4DB /* FacebookAppInvite.m */; };
+		9D700D1C1CC4469F00E8D4DB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D700D1B1CC4469F00E8D4DB /* FBSDKShareKit.framework */; };
+		9D700D261CC448AA00E8D4DB /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D700D251CC448AA00E8D4DB /* libReact.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D700D2A1CC4513600E8D4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D700D1D1CC4486700E8D4DB /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D700D051CC445E500E8D4DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		9D700CB51CC4279000E8D4DB /* FacebookAppInvite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookAppInvite.h; sourceTree = "<group>"; };
-		9D700CB61CC4279000E8D4DB /* FacebookAppInvite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookAppInvite.m; sourceTree = "<group>"; };
+		9D700D071CC445E500E8D4DB /* libreact-native-facebook-app-invite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreact-native-facebook-app-invite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D700D181CC4465800E8D4DB /* FacebookAppInvite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookAppInvite.h; sourceTree = "<group>"; };
+		9D700D191CC4465800E8D4DB /* FacebookAppInvite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookAppInvite.m; sourceTree = "<group>"; };
+		9D700D1B1CC4469F00E8D4DB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		9D700D1D1CC4486700E8D4DB /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = React.xcodeproj; sourceTree = "<group>"; };
+		9D700D251CC448AA00E8D4DB /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "build/Debug-iphoneos/libReact.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		9D700D041CC445E500E8D4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D700D261CC448AA00E8D4DB /* libReact.a in Frameworks */,
+				9D700D1C1CC4469F00E8D4DB /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		9D17E6541CB6AF7E007DCD1D = {
+		9D700CFE1CC445E500E8D4DB = {
 			isa = PBXGroup;
 			children = (
-				9D700CB41CC4279000E8D4DB /* FacebookAppInvite */,
+				9D700D171CC4465800E8D4DB /* FacebookAppInvite */,
+				9D700D081CC445E500E8D4DB /* Products */,
+				9D700D241CC4488700E8D4DB /* Libraries */,
+				9D700D1B1CC4469F00E8D4DB /* FBSDKShareKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
-		9D700CB41CC4279000E8D4DB /* FacebookAppInvite */ = {
+		9D700D081CC445E500E8D4DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D700CB51CC4279000E8D4DB /* FacebookAppInvite.h */,
-				9D700CB61CC4279000E8D4DB /* FacebookAppInvite.m */,
+				9D700D071CC445E500E8D4DB /* libreact-native-facebook-app-invite.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D700D171CC4465800E8D4DB /* FacebookAppInvite */ = {
+			isa = PBXGroup;
+			children = (
+				9D700D181CC4465800E8D4DB /* FacebookAppInvite.h */,
+				9D700D191CC4465800E8D4DB /* FacebookAppInvite.m */,
 			);
 			path = FacebookAppInvite;
 			sourceTree = "<group>";
 		};
+		9D700D241CC4488700E8D4DB /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				9D700D251CC448AA00E8D4DB /* libReact.a */,
+				9D700D1D1CC4486700E8D4DB /* React.xcodeproj */,
+			);
+			name = Libraries;
+			path = "../node_modules/react-native/React";
+			sourceTree = "<group>";
+		};
+		9D700D271CC4513600E8D4DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D700D2B1CC4513600E8D4DB /* libReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXNativeTarget section */
+		9D700D061CC445E500E8D4DB /* react-native-facebook-app-invite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D700D101CC445E500E8D4DB /* Build configuration list for PBXNativeTarget "react-native-facebook-app-invite" */;
+			buildPhases = (
+				9D700D031CC445E500E8D4DB /* Sources */,
+				9D700D041CC445E500E8D4DB /* Frameworks */,
+				9D700D051CC445E500E8D4DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "react-native-facebook-app-invite";
+			productName = "react-native-facebook-app-invite";
+			productReference = 9D700D071CC445E500E8D4DB /* libreact-native-facebook-app-invite.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
-		9D17E6551CB6AF7E007DCD1D /* Project object */ = {
+		9D700CFF1CC445E500E8D4DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = adrienthiery;
+				TargetAttributes = {
+					9D700D061CC445E500E8D4DB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
 			};
-			buildConfigurationList = 9D17E6581CB6AF7E007DCD1D /* Build configuration list for PBXProject "react-native-facebook-app-invite" */;
+			buildConfigurationList = 9D700D021CC445E500E8D4DB /* Build configuration list for PBXProject "react-native-facebook-app-invite" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9D17E6541CB6AF7E007DCD1D;
+			mainGroup = 9D700CFE1CC445E500E8D4DB;
+			productRefGroup = 9D700D081CC445E500E8D4DB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9D700D271CC4513600E8D4DB /* Products */;
+					ProjectRef = 9D700D1D1CC4486700E8D4DB /* React.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
+				9D700D061CC445E500E8D4DB /* react-native-facebook-app-invite */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		9D700D2B1CC4513600E8D4DB /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 9D700D2A1CC4513600E8D4DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D700D031CC445E500E8D4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D700D1A1CC4465800E8D4DB /* FacebookAppInvite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCBuildConfiguration section */
-		9D17E6591CB6AF7E007DCD1D /* Debug */ = {
+		9D700D0E1CC445E500E8D4DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		9D17E65A1CB6AF7E007DCD1D /* Release */ = {
+		9D700D0F1CC445E500E8D4DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D700D111CC445E500E8D4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../FacebookSDK/**";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D700D121CC445E500E8D4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../FacebookSDK/**";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D17E6581CB6AF7E007DCD1D /* Build configuration list for PBXProject "react-native-facebook-app-invite" */ = {
+		9D700D021CC445E500E8D4DB /* Build configuration list for PBXProject "react-native-facebook-app-invite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D17E6591CB6AF7E007DCD1D /* Debug */,
-				9D17E65A1CB6AF7E007DCD1D /* Release */,
+				9D700D0E1CC445E500E8D4DB /* Debug */,
+				9D700D0F1CC445E500E8D4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D700D101CC445E500E8D4DB /* Build configuration list for PBXNativeTarget "react-native-facebook-app-invite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D700D111CC445E500E8D4DB /* Debug */,
+				9D700D121CC445E500E8D4DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9D17E6551CB6AF7E007DCD1D /* Project object */;
+	rootObject = 9D700CFF1CC445E500E8D4DB /* Project object */;
 }

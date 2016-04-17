@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/adrienthiery/react-native-facebook-app-invite/issues"
   },
-  "homepage": "https://github.com/adrienthiery/react-native-facebook-app-invite#readme"
+  "homepage": "https://github.com/adrienthiery/react-native-facebook-app-invite#readme",
+  "dependencies": {
+    "react-native": "^0.23.1"
+  }
 }
