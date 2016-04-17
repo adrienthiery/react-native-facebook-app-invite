@@ -7,8 +7,6 @@
 //
 
 #import "RCTBridgeModule.h"
-#import "RCTLog.h"
-#import <FBSDKShareKit/FBSDKShareKit.h>
 
 @interface FacebookAppInvite : NSObject <RCTBridgeModule>
 

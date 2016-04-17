@@ -22,7 +22,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		9D700CD21CC4350000E8D4DB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D700CD11CC4350000E8D4DB /* FBSDKShareKit.framework */; };
+		9D700CD41CC437F300E8D4DB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D700CD31CC437F300E8D4DB /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,7 +128,7 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		9D700CC41CC434BF00E8D4DB /* react-native-facebook-app-invite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "react-native-facebook-app-invite.xcodeproj"; path = "/Users/osedea/Projects/react-native-facebook-app-invite/example/node_modules/react-native/React/../../react-native-facebook-app-invite/ios/react-native-facebook-app-invite.xcodeproj"; sourceTree = "<absolute>"; };
-		9D700CD11CC4350000E8D4DB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		9D700CD31CC437F300E8D4DB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../node_modules/react-native-facebook-app-invite/FacebookSDK/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
-				9D700CD21CC4350000E8D4DB /* FBSDKShareKit.framework in Frameworks */,
+				9D700CD41CC437F300E8D4DB /* FBSDKShareKit.framework in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
@@ -296,7 +296,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeFacebookAppInviteExampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				9D700CD11CC4350000E8D4DB /* FBSDKShareKit.framework */,
+				9D700CD31CC437F300E8D4DB /* FBSDKShareKit.framework */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -633,7 +633,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROO)/../node_modules/react-native-facebook-app-invite/FacebookSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-facebook-app-invite/FacebookSDK/**",
 				);
 				INFOPLIST_FILE = ReactNativeFacebookAppInviteExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -650,7 +650,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROO)/../node_modules/react-native-facebook-app-invite/FacebookSDK/**",
+					"$(SRCROOT)/../node_modules/react-native-facebook-app-invite/FacebookSDK/**",
 				);
 				INFOPLIST_FILE = ReactNativeFacebookAppInviteExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
