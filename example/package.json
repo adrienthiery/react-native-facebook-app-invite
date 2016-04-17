@@ -1,0 +1,13 @@
+{
+  "name": "ReactNativeFacebookAppInviteExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-native": "^0.23.1",
+    "react-native-facebook-app-invite": "github:adrienthiery/react-native-facebook-app-invite"
+  }
+}
