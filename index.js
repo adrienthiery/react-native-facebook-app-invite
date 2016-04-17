@@ -16,6 +16,6 @@ export const openAppInvite = (
     );
 };
 
-export default class FacebookAppInvite {
+export default class FacebookAppInviteClass {
     static openAppInvite = openAppInvite;
 };
