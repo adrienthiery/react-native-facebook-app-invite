@@ -102,6 +102,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		9D700D621CC455A500E8D4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D700D5D1CC455A400E8D4DB /* react-native-facebook-app-invite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D700D071CC445E500E8D4DB;
+			remoteInfo = "react-native-facebook-app-invite";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -126,7 +133,7 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		9D700CC41CC434BF00E8D4DB /* react-native-facebook-app-invite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "react-native-facebook-app-invite.xcodeproj"; path = "/Users/osedea/Projects/react-native-facebook-app-invite/example/node_modules/react-native/React/../../react-native-facebook-app-invite/ios/react-native-facebook-app-invite.xcodeproj"; sourceTree = "<absolute>"; };
+		9D700D5D1CC455A400E8D4DB /* react-native-facebook-app-invite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "react-native-facebook-app-invite.xcodeproj"; path = "../node_modules/react-native-facebook-app-invite/ios/react-native-facebook-app-invite.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,7 +270,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				9D700CC41CC434BF00E8D4DB /* react-native-facebook-app-invite.xcodeproj */,
+				9D700D5D1CC455A400E8D4DB /* react-native-facebook-app-invite.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -307,9 +314,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D700CC51CC434BF00E8D4DB /* Products */ = {
+		9D700D5E1CC455A400E8D4DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				9D700D631CC455A500E8D4DB /* libreact-native-facebook-app-invite.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -359,7 +367,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -417,8 +425,8 @@
 					ProjectRef = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
 				},
 				{
-					ProductGroup = 9D700CC51CC434BF00E8D4DB /* Products */;
-					ProjectRef = 9D700CC41CC434BF00E8D4DB /* react-native-facebook-app-invite.xcodeproj */;
+					ProductGroup = 9D700D5E1CC455A400E8D4DB /* Products */;
+					ProjectRef = 9D700D5D1CC455A400E8D4DB /* react-native-facebook-app-invite.xcodeproj */;
 				},
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
@@ -502,6 +510,13 @@
 			fileType = archive.ar;
 			path = libRCTText.a;
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9D700D631CC455A500E8D4DB /* libreact-native-facebook-app-invite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libreact-native-facebook-app-invite.a";
+			remoteRef = 9D700D621CC455A500E8D4DB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -598,6 +613,7 @@
 				INFOPLIST_FILE = ReactNativeFacebookAppInviteExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeFacebookAppInviteExample.app/ReactNativeFacebookAppInviteExample";
 			};
@@ -615,6 +631,7 @@
 				INFOPLIST_FILE = ReactNativeFacebookAppInviteExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeFacebookAppInviteExample.app/ReactNativeFacebookAppInviteExample";
 			};
@@ -629,11 +646,11 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROOT)/../node_modules/react-native-facebook-app-invite/**",
 				);
 				INFOPLIST_FILE = ReactNativeFacebookAppInviteExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ReactNativeFacebookAppInviteExample;
 			};
 			name = Debug;
@@ -646,11 +663,11 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROOT)/../node_modules/react-native-facebook-app-invite/**",
 				);
 				INFOPLIST_FILE = ReactNativeFacebookAppInviteExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ReactNativeFacebookAppInviteExample;
 			};
 			name = Release;
@@ -675,6 +692,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
